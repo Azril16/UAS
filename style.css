@@ -1,0 +1,49 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+#awa{
+	background-color:hsl(160, 100%, 90%);
+	display:flex;
+	flex-direction:column;
+	height:100vh;
+	align-items:center;
+	justify-content:center;
+}
+main section{
+	margin:20px 10% 20px 10%;
+	display:grid;
+	grid-template:repeat(2,1fr)/repeat(3,1fr);
+	grid-column-gap:10px;
+	justify-items:center;
+}
+.project-tile{
+	margin-bottom:80px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.project-tile img{
+	width: 250px;
+}
+main{
+	padding-top:120px;
+	display:flex;
+	flex-direction:column;
+}
+main button {
+	text-align:center;
+	border-radius:5px;
+	border-color:#03A9F4;
+	cursor:pointer;
+	box-shadow:none;
+	width:auto;
+	align-self:center;
+	padding:5px 10px 5px 10px;
+	margin-bottom:20px;
+}
+main a,main a:hover,main a:active,main a:focus,main a:visited{
+	text-decoration:none;
+	color:#03A9F4;
+}
+}
